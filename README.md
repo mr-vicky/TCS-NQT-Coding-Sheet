@@ -1,1 +1,1 @@
-# **TCS NQT Coding Sheet** – TCS Coding Questions
+# [**TCS NQT Coding Sheet**](https://takeuforward.org/interviews/tcs-nqt-coding-sheet-tcs-coding-questions/#point_1) – TCS Coding Questions
