@@ -1,4 +1,8 @@
 /*
+Problem Statement: Given an array, we have to find the smallest element in the array.
+
+Examples:
+
 Example 1:
 Input: arr[] = {2,5,1,3,0};
 Output: 0
@@ -17,6 +21,8 @@ Explanation: 5 is the smallest element in the array.
 
 using namespace std;
 
+// TC: O(n*log(n))
+// SC: O(n)
 int getSmallest(vector<int> arr){
     sort(arr.begin(), arr.end());
     return arr[0];
