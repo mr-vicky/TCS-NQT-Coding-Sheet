@@ -45,7 +45,10 @@ bool isPalindrome(int x){
 
 int main()
 {
-    int x = 99099;
+    int x = 1925;
     cout<<boolalpha<<isPalindrome(x);
+    cout<<endl;
+    cout<<boolalpha<<isPalindrome(121);
+
     return 0;
 }
