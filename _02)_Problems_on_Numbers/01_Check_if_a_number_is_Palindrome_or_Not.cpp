@@ -20,6 +20,7 @@ Explanation: 121 read backwards as 121.Since these are two same numbers 121 is a
 #include<bits/stdc++.h>
 using namespace std;
 
+// Method 1: 
 // TC: O(n)
 // SC: O(n)
 bool isPalindrome(int x){
