@@ -43,7 +43,7 @@ void removeSuplicates2(vector<int>& arr){
 }
 
 // Method 3: 
-// TC: O(n*log(n))
+// TC: O(n)
 // SC: O(n)
 void removeSuplicates3(vector<int>& arr){
     int n = arr.size();
