@@ -15,25 +15,26 @@ Output: 10010
 Explanation: 18 in binary is represented as "10010".
 */ 
 
-#include<bits/stdc++.h>
+#include<iostream>
 using namespace std;
 
-int decimalToBinary(int num){
-    int binary[32]={0};
-    int i=0;
-    while(num){
-        binary[i]= num%2;
+void decimal_to_binary(int n){
+    int binary[32] = {0};
+    int i = 0;
+    while(n){
+        binary[i] = n%2;
         i++;
-        num/=2;
+        n /= 2;
     }
-    return 0;
-
+    
+    int res = 0;
+    for(int ind = i-1; ind>=0; ind--){
+        cout<<binary[ind];
+    }
 }
 
-int main()
-{
-    int num=0;
-    cin>>num;
-    cout<<decimalToBinary(num);
+int main(){
+    int n = 28;
+    decimal_to_binary(n);
     return 0;
 }
